@@ -1,0 +1,11 @@
+.date-time-component {
+    width: 100%;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .caption {
+    margin-bottom: 2px;
+  }
+  
