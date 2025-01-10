@@ -1,11 +1,8 @@
 import { Caption1Strong } from "@fluentui/react-components";
 import { DatePicker } from "@fluentui/react-datepicker-compat";
 import './styleDate.css'
+import { infoDatePicker, parseDateFromString } from "../utils";
 
-import {
-  infoDatePicker,
-  parseDateFromString,
-} from "../utils/DateTimeHelper";
 
 interface IDateTimeRosmel {
   text: string;
