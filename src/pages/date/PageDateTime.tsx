@@ -45,7 +45,6 @@ export const PageDateTime = () => {
                         value={fecha.fin}
                     />
                 </GridItem>
-
             </GridComtainer>
         </LayoutContainer>
     )

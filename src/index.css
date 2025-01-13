@@ -22,8 +22,8 @@ body {
 
 /* Contenedor básico para el grid */
 .grid-container {
-  display: grid;
-  gap:  var(--gap, 10px); ;
+  display: grid; 
+  gap:  var(--gap, 10px);
   grid-template-columns: repeat(var(--xs-cols, 1), 1fr); /* xs - número de columnas por defecto */
 }
 

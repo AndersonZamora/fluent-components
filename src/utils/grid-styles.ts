@@ -14,13 +14,13 @@ interface ItemProps {
     radiusWidth?: string;
 }
 
-export const styleGrid = ({ xs = 1, sm = 2, md = 3, lg = 4, gap = "10" }: Props): React.CSSProperties => {
+export const styleGrid = ({ xs = 1, sm = 2, md = 3, lg = 4, gap = "10", }: Props): React.CSSProperties => {
     return {
         '--xs-cols': xs,
         '--sm-cols': sm,
         '--md-cols': md,
         '--lg-cols': lg,
-        gap
+        gap,
     } as React.CSSProperties;
 }
 

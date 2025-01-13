@@ -7,16 +7,23 @@ interface Props {
     md?: number;
     lg?: number;
     gap?: string;
+    visible?: boolean;
     children: React.ReactNode;
 }
 
-export const GridComtainer = ({ xs, sm, md, lg, gap="10px", children }: Props) => {
+export const GridComtainer = ({ xs, sm, md, lg, gap = "10px", visible = true, children }: Props) => {
 
-    const gridStyle = styleGrid({ xs, sm, md, lg,gap })
+    const gridStyle = styleGrid({ xs, sm, md, lg, gap })
 
     return (
-        <div className='grid-container' style={gridStyle}>
-            {children}
-        </div>
+        <>
+            {
+                visible && (
+                    <div className='grid-container' style={gridStyle}>
+                        {children}
+                    </div>
+                )
+            }
+        </>
     )
 }

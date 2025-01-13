@@ -72,7 +72,7 @@ export const NavBar = (props: Partial<NavDrawerProps>) => {
           <LinkNavBar title={"Inicio"} toLink={"inicio"} icon={<Home12Filled style={{ marginRight: "15px" }} />} />
           <LinkNavBar title={"Fechas"} toLink={"fechas"} icon={<CalendarDataBar16Filled style={{ marginRight: "15px" }} />} />
           <LinkNavBar title={"Selescts"} toLink={"selects"} icon={<CalendarDataBar16Filled style={{ marginRight: "15px" }} />} />
-          <NavSectionHeader>Mas..</NavSectionHeader>
+          <LinkNavBar title={"Forms"} toLink={"forms"} icon={<CalendarDataBar16Filled style={{ marginRight: "15px" }} />} />
         </NavDrawerBody>
       </NavDrawer>
     </div>
